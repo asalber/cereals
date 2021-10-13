@@ -2,12 +2,12 @@
 <!DOCTYPE rkpluginmap>
 <document namespace="rkTeaching">
 	<about 
-		name="cereales"
-		shortinfo="Conjunto de datos de un estudio nutricional de varias marcas de cereales."
-		longinfo="Conjunto de datos de un estudio nutricional de varias marcas de cereales vendidas en Estados Unidos."
+		name="cereals"
+		shortinfo="Data set of a study with nutritional information of breakfast cereals."
+		longinfo="Data set of a study with nutritional information of breakfast cereals sold in US."
 		version="0.01"
 		releasedate="2014-12-01"
-		url="http://aprendeconalf.es"
+		url="https://aprendeconalf.es"
 		license="GPL (&gt;= 3)"
 	>
 		<author 

@@ -7,7 +7,7 @@ function preprocess(){
 
 function calculate () {
 	dni = getString("dni");
-	echo('data(df.cereals, package="cereals")\n');
+	echo('data(cereals, package="cereals")\n');
 	echo('set.seed(' + dni + 1 + ')\n');
 	echo('df.cereals$calories <- df.cereals$calories + round(runif(length(df.cereals$calories),-2,2))\n');
 	echo('df.cereals$protein <- df.cereals$protein + round(runif(length(df.cereals$protein),0,1),1)\n');

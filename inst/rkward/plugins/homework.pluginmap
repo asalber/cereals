@@ -2,7 +2,7 @@
 <!DOCTYPE rkpluginmap>
 <document base_prefix="" namespace="rkTeaching" id="homeworkpluginmap">
 	<components>
-		<component type="standard" id="homework" file="homework.xml" label="Generar datos" />
+		<component type="standard" id="homework" file="homework.xml" label="Generate data" />
 	</components>
 	
 	<hierarchy>
