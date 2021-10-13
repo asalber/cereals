@@ -1,0 +1,21 @@
+<!--author: Alfredo Sánchez Alberca (asalber@ceu.es) -->
+
+<!DOCTYPE rkplugin>
+<document>
+	<code file="homework.js"/>
+	<help file="homework.rkh"/>
+	
+	<dialog label="Cereals data set generation">
+		<input id="dni" label="Enter the last 8 digits of your identity card number (without letters):"/>
+	</dialog>
+	
+	<wizard label="Cereals data set generation">
+		<page id="pag_vars">
+			<text>
+				Enter the last 8 digits of your identity card number (without letters): 
+				A new data set will be created with your own homework data. 
+			</text>
+			<copy id="dni" />
+		</page>
+	</wizard>
+</document>
